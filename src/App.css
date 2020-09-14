@@ -1,0 +1,498 @@
+/* general stuff */
+@font-face {
+  font-family: "NokiaPureTWeb";
+  src: local("NokiaPureTWeb"),
+    url("./Fonts/NokiaPureTWeb_Rg.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NokiaPureTWeb";
+  src: local("NokiaPureTWeb"),
+    url("./Fonts/NokiaPureTWeb_Bd.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "NokiaPureTWeb";
+  src: local("NokiaPureTWeb"),
+    url("./Fonts/NokiaPureTWeb_Lt.ttf") format("truetype");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "NokiaPureHeadline";
+  src: local("NokiaPureHeadline"),
+    url("./Fonts/NokiaPureHeadline_Rg.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NokiaPureHeadline";
+  src: local("NokiaPureHeadline"),
+    url("./Fonts/NokiaPureHeadline_Bd.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "NokiaPureHeadline";
+  src: local("NokiaPureHeadline"),
+    url("./Fonts/NokiaPureHeadline_Lt.ttf") format("truetype");
+  font-weight: lighter;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: NokiaPureTWeb, Arial, Helvetica, sans-serif;
+  line-height: 1.4em;
+  font-size: 16px;
+}
+
+a:visited {
+  color: black;
+}
+
+/* gladys */
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.phone-details {
+  display: flex;
+}
+
+.phone-pictures,
+.phone-info {
+  flex: 1;
+  margin: 50px;
+}
+/* phone pictures style start */
+.phone-pictures {
+  width: 30vw;
+}
+.phone-details .image-gallery {
+  max-width: 100%;
+}
+
+.image-gallery-thumbnail-inner {
+  width: 50px;
+}
+
+.image-gallery-thumbnail-image {
+  max-width: 100%;
+}
+/* phone pictures style end */
+
+/* phone info style start */
+
+.model-name {
+  font-family: NokiaPureHeadline, monospace;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.phone-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.phone-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  width: 80%;
+}
+
+.detail-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.detail-heading {
+  width: 200px;
+  font-weight: bold;
+  color: grey;
+}
+
+.detail-info {
+  width: 100%;
+  text-align: right;
+}
+
+/* phone info style end */
+
+/* media queries */
+@media screen and (max-width: 1000px) {
+  .phone-pictures {
+    width: 50vw;
+  }
+  .phone-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .phone-info {
+    margin-top: 50px;
+  }
+  .phone-details .image-gallery {
+    max-width: 100%;
+  }
+  .model-name {
+    font-size: 48px;
+  }
+}
+
+/* matias */
+
+.header {
+  display: flex;
+}
+
+
+.navbar {
+  display: flex;
+  width: 100vw;
+}
+
+.logo-wrapper {
+  display: flex;
+}
+
+.logoNokia {
+  width: 155px;
+  height: 72px;
+  margin-top: 6px;
+}
+
+.logoSeparator {
+  background: black;
+  width: 1px;
+  height: 19px;
+  margin: 33px 0px 0px -8px;
+}
+
+.logoPhonesAnchor {
+  font-family: NokiaPureHeadline, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 15px;
+}
+
+.navbar-anchors-container-wrapper {
+  display: flex;
+  justify-content: end;
+}
+
+
+.navbar-anchors-container {
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80vw;
+}
+
+.navbar-anchors {
+  font-weight: bold;
+  margin: 0px 20px 0px 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar-anchors {
+      display: none;
+    }
+}
+
+
+
+.banner-wrapper {
+  height: 600px;
+  background-color: black;
+  z-index: -10;
+}
+
+.banner-title {
+  color: white;
+  margin-top: -220px;
+  margin-right: 50px;
+  font-size: 35px;
+  text-align: right;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.38);
+}
+
+.banner-wrapper-background-img-container {
+  overflow: hidden;
+  height: 100%;
+}
+
+.banner-wrapper-background-img {
+  float: right;
+}
+
+@media screen and (min-width: 1000px) {
+  .banner-wrapper-background-img {
+    width: 100%;
+  }
+}
+
+.which-phone-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 660px;
+  background-color: #f4f4f4;
+  z-index: 10;
+  margin-bottom: 130px;
+  position: relative;
+}
+
+.which-phone-banner-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.which-phone-banner-left-column {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  z-index: 20;
+}
+
+.which-phone-slogan-container {
+  width: 550px;
+  height: 200px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.which-phone-slogan-text {
+  font-size: 60px;
+}
+
+.which-phone-row {
+  display: flex;
+  height: 100px;
+  width: 530px;
+  margin-left: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.which-phone-buttons {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 230px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.which-phone-buttons:hover {
+  background-color: rgb(183, 183, 183, 0.7);
+  border: 1px solid rgb(148, 148, 148, 0.7);
+}
+
+.which-phone-buttons-text {
+  font-size: 19px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.which-phone-buttons-text:hover {
+  color: rgb(33, 33, 33);
+}
+
+.which-phone-banner-right-column {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.which-phone-banner-right-column-img {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.which-phone-banner-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.which-phone-banner-bottom-arrow-down {
+  transition: 0.5s;
+}
+
+.which-phone-banner-bottom-arrow-down:hover {
+  cursor: pointer;
+  width: 390px;
+  margin-top: -1px;
+  -webkit-filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.5));
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+.footer-wrapper-top {
+  height: 400px;
+  margin-top: 200px;
+  background-color: black;
+}
+
+.footer-wrapper-bottom {
+  height: 200px;
+  background-color: white;
+}
+
+/* anne */
+
+.phonelist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: auto;
+  font-family: NokiaPureTWeb, Arial, Helvetica, sans-serif;
+}
+
+.phonecard {
+  margin: auto;
+  height: 37vw;
+  width: 37vw;
+  position: relative;
+  margin-top: 5vh;
+  letter-spacing: -0.2px;
+  line-height: 20px;
+}
+
+.phonecard-square {
+  position: relative;
+  background-color: #e3e3e3;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  justify-content: space-evenly;
+}
+
+.phonecard:nth-of-type(1) .phonecard-square-bottom,
+.phonecard:nth-of-type(4) .phonecard-square-bottom,
+.phonecard:nth-of-type(5) .phonecard-square-bottom {
+  display: none;
+}
+.phonecard:nth-of-type(2) .phonecard-square .phonecard-icon,
+.phonecard:nth-of-type(6) .phonecard-square .phonecard-icon {
+  filter: invert(100%);
+}
+
+.phonecard:nth-of-type(2) .phonecard-square,
+.phonecard:nth-of-type(6) .phonecard-square {
+  background-color: rgb(16, 0, 169);
+  color: rgb(255, 255, 255) !important;
+}
+
+.phonecard:nth-of-type(2) .phonecard-square-bottom,
+.phonecard:nth-of-type(6) .phonecard-square-bottom {
+  background-color: #f4f4f4;
+}
+
+.phonecard-container {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.phonecard-square > div > h2 {
+  text-align: center;
+  font-size: calc(16px + 12 * (100vw - 840px) / 599);
+  line-height: calc(20px + 8 * (100vw - 840px) / 599);
+  font-weight: bold;
+  white-space: nowrap;
+  margin-top: 3vh;
+}
+
+.phonecard-img-container {
+  height: 80%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.phonecard-img-container:hover {
+  -webkit-transform: translateY(-16px);
+  transform: translateY(-16px);
+}
+
+.phonecard-info {
+  /* white-space: nowrap; */
+  text-align: center;
+  margin: 1vh;
+}
+
+.phonecard-icon-container {
+  margin: 1vh;
+  text-align: center;
+}
+
+.phonecard-icon {
+  height: 45px;
+}
+
+.phonecard-img-container > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: -20px;
+}
+
+.phonecard-img-container > a > img {
+  flex-shrink: 0;
+  min-width: 100%;
+  height: 100%;
+}
+
+.phonecard-square-bottom {
+  background-color: #124191;
+  height: 40vw;
+  width: 40vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
