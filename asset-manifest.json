@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/nokia-hackathon-group-2/static/css/main.d1544536.chunk.css",
-    "main.js": "/nokia-hackathon-group-2/static/js/main.794f7a59.chunk.js",
-    "main.js.map": "/nokia-hackathon-group-2/static/js/main.794f7a59.chunk.js.map",
+    "main.js": "/nokia-hackathon-group-2/static/js/main.63f982f5.chunk.js",
+    "main.js.map": "/nokia-hackathon-group-2/static/js/main.63f982f5.chunk.js.map",
     "runtime-main.js": "/nokia-hackathon-group-2/static/js/runtime-main.5091b1fe.js",
     "runtime-main.js.map": "/nokia-hackathon-group-2/static/js/runtime-main.5091b1fe.js.map",
     "static/css/2.e6cf9162.chunk.css": "/nokia-hackathon-group-2/static/css/2.e6cf9162.chunk.css",
-    "static/js/2.8ffa5f5d.chunk.js": "/nokia-hackathon-group-2/static/js/2.8ffa5f5d.chunk.js",
-    "static/js/2.8ffa5f5d.chunk.js.map": "/nokia-hackathon-group-2/static/js/2.8ffa5f5d.chunk.js.map",
+    "static/js/2.1814f423.chunk.js": "/nokia-hackathon-group-2/static/js/2.1814f423.chunk.js",
+    "static/js/2.1814f423.chunk.js.map": "/nokia-hackathon-group-2/static/js/2.1814f423.chunk.js.map",
     "index.html": "/nokia-hackathon-group-2/index.html",
-    "precache-manifest.9ecbce6deb91366dff5e5d176dc11fea.js": "/nokia-hackathon-group-2/precache-manifest.9ecbce6deb91366dff5e5d176dc11fea.js",
+    "precache-manifest.fb11cafd3859f7d8caaaa67260d58ccd.js": "/nokia-hackathon-group-2/precache-manifest.fb11cafd3859f7d8caaaa67260d58ccd.js",
     "service-worker.js": "/nokia-hackathon-group-2/service-worker.js",
     "static/css/2.e6cf9162.chunk.css.map": "/nokia-hackathon-group-2/static/css/2.e6cf9162.chunk.css.map",
     "static/css/main.d1544536.chunk.css.map": "/nokia-hackathon-group-2/static/css/main.d1544536.chunk.css.map",
-    "static/js/2.8ffa5f5d.chunk.js.LICENSE.txt": "/nokia-hackathon-group-2/static/js/2.8ffa5f5d.chunk.js.LICENSE.txt",
+    "static/js/2.1814f423.chunk.js.LICENSE.txt": "/nokia-hackathon-group-2/static/js/2.1814f423.chunk.js.LICENSE.txt",
     "static/media/App.css": "/nokia-hackathon-group-2/static/media/NokiaPureTWeb_Rg.536160e8.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.5091b1fe.js",
     "static/css/2.e6cf9162.chunk.css",
-    "static/js/2.8ffa5f5d.chunk.js",
+    "static/js/2.1814f423.chunk.js",
     "static/css/main.d1544536.chunk.css",
-    "static/js/main.794f7a59.chunk.js"
+    "static/js/main.63f982f5.chunk.js"
   ]
 }

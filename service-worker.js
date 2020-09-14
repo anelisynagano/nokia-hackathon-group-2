@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nokia-hackathon-group-2/precache-manifest.9ecbce6deb91366dff5e5d176dc11fea.js"
+  "/nokia-hackathon-group-2/precache-manifest.fb11cafd3859f7d8caaaa67260d58ccd.js"
 );
 
 self.addEventListener('message', (event) => {
